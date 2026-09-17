@@ -66,3 +66,55 @@ DIVIDE(
 )
 Quantidade de Emendas =
 DISTINCTCOUNT(EmendasParlamentares[Código da Emenda])
+
+
+
+## Principais medidas DAX
+01 — Visão Geral
+
+Apresenta uma visão consolidada dos valores empenhados, liquidados e pagos, além da distribuição dos recursos pagos por função.
+
+02 — Autores das Emendas
+
+Analisa os recursos pagos e a quantidade de emendas por autor, permitindo explorar os principais registros da base.
+
+03 — Destino dos Recursos
+
+Apresenta a distribuição dos recursos pagos por UF e permite analisar o destino geográfico dos recursos.
+
+04 — Perfil das Emendas
+
+Explora as emendas segundo tipo, região, apoiador/solicitante, função, programa e ação.
+
+05 — Execução Orçamentária
+
+Apresenta a execução financeira por ano e informações relacionadas a empenho, liquidação, pagamento e Restos a Pagar.
+
+06 — Análise Detalhada
+
+Permite consultar uma emenda específica por meio do Código da Emenda e visualizar sua identificação, destino, classificação orçamentária e execução financeira.
+
+Visualizações
+Visão Geral
+
+Autores das Emendas
+
+Destino dos Recursos
+
+Perfil das Emendas
+
+Execução Orçamentária
+
+Análise Detalhada
+
+Arquivos
+Arquivo .pbix com o desenvolvimento do dashboard.
+Base de dados utilizada no projeto, disponibilizada em arquivo compactado.
+Imagens das páginas do dashboard.
+Fonte dos dados
+
+Portal da Transparência — dados públicos de Emendas Parlamentares.
+
+Observação
+
+Este projeto tem finalidade analítica e de portfólio, utilizando dados públicos para exploração e visualização de informações.
