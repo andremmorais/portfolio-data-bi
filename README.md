@@ -51,25 +51,20 @@ Principais informações utilizadas:
 
 ## Principais medidas DAX
 
-```DAX
-Total Empenhado =
-SUM(EmendasParlamentares[Valor Empenhado])
-Total Liquidado =
-SUM(EmendasParlamentares[Valor Liquidado])
-Total Pago =
-SUM(EmendasParlamentares[Valor Pago])
-% Pago sobre Empenhado =
-DIVIDE(
-    [Total Pago],
-    [Total Empenhado],
-    0
-)
-Quantidade de Emendas =
-DISTINCTCOUNT(EmendasParlamentares[Código da Emenda])
+Total Empenhado = SUM(EmendasParlamentares[Valor Empenhado])
+
+Total Liquidado = SUM(EmendasParlamentares[Valor Liquidado])
+
+Total Pago = SUM(EmendasParlamentares[Valor Pago])
+
+% Pago sobre Empenhado = DIVIDE([Total Pago],[Total Empenhado],0)
+
+Quantidade de Emendas = DISTINCTCOUNT(EmendasParlamentares[Código da Emenda])
 
 
 
-## Principais medidas DAX
+## Estrutura do Dashboard
+
 01 — Visão Geral
 
 Apresenta uma visão consolidada dos valores empenhados, liquidados e pagos, além da distribuição dos recursos pagos por função.
